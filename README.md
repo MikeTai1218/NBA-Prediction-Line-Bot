@@ -1,1 +1,1 @@
-# NBA-Prediction-Bot
+# NBA Prediction Line Bot
