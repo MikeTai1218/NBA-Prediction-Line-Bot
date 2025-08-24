@@ -1,4 +1,5 @@
 import random
+from config import GITHUB_NAME
 from urllib.parse import quote
 from utils._user_table import *
 from utils._team_table import NBA_ABBR_ENG_TO_ABBR_CN
@@ -135,9 +136,9 @@ def _pack_game_carousel_column(game: dict, playoffsLayout: bool, tomorrowTW: dat
 
     encodedTeam1 = quote(teamNames[0])
     encodedTeam2 = quote(teamNames[1])
-    thumbnailImageUrl = f"https://raw.githubusercontent.com/Mike1ife/Line-Bot/main/images/merge/{encodedTeam1}_{encodedTeam2}.png"
+    thumbnailImageUrl = f"https://raw.githubusercontent.com/{GITHUB_NAME}/NBA-Prediction-Line-Bot/main/images/merge/{encodedTeam1}_{encodedTeam2}.png"
     if not _check_url_exist(url=thumbnailImageUrl):
-        thumbnailImageUrl = f"https://raw.githubusercontent.com/Mike1ife/Line-Bot/main/images/merge/{encodedTeam2}_{encodedTeam1}.png"
+        thumbnailImageUrl = f"https://raw.githubusercontent.com/{GITHUB_NAME}/NBA-Prediction-Line-Bot/main/images/merge/{encodedTeam2}_{encodedTeam1}.png"
         teamNames.reverse()
         teamStandings.reverse()
         teamPoints.reverse()
