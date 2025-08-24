@@ -44,7 +44,6 @@ git push -u origin main
 
 ### 4. Database & Storage Setup
 
-- **Vercel Blob**: used for static assets (e.g., logos, images).  
 - **Neon DB (Postgres)**: used for NBA data storage.  
 
 Initialize the database:
