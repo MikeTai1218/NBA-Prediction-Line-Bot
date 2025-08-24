@@ -1,0 +1,7 @@
+line-bot-sdk
+flask
+requests
+datetime
+beautifulsoup4
+pillow
+psycopg[binary]
