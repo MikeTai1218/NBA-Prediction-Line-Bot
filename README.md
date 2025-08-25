@@ -1,7 +1,7 @@
 # NBA Prediction Line Bot 🏀🤖
 
 A **LINE messaging bot** that provides NBA game predictions, player stats, and team insights.  
-Built with **Python**, deployed on **Vercel**, and backed by **Neon (Postgres)** and **Vercel Blob Storage**.
+Built with **Python**, deployed on **Vercel**, and backed by **Neon (Postgres)**.
 
 ---
 
