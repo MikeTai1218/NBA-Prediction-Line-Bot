@@ -70,7 +70,6 @@ Once the bot is deployed and connected to LINE, you can interact with it using t
 ---
 
 ### 🏀 Game & Prediction
-![Game & Prediction Showcase](./assets/game_prediction/overview.png)
 
 - **`nba`** → Show NBA daily schedule.  
 - **`NBA每日預測`** → Get NBA prediction panels. *(Recommended: schedule at 11:00 UTC every day)*  
@@ -79,12 +78,11 @@ Once the bot is deployed and connected to LINE, you can interact with it using t
 - **`跟盤`** → View another user's prediction.  
 - **`比較`** → Compare predictions between two users.  
 
-📂 More screenshots: [assets/game_prediction](./assets/game_prediction)  
+📂 Screenshots: [assets/game_prediction](./assets/game_prediction)  
 
 ---
 
 ### 📊 User Information & Ranking
-![User Ranking Showcase](./assets/user_ranking/overview.png)
 
 #### 👤 User Setup
 - **`註冊`** → Register to the leaderboard. *(Required before joining predictions)*  
@@ -98,19 +96,18 @@ Once the bot is deployed and connected to LINE, you can interact with it using t
 - **`週排行` / `月排行` / `季排行` / `總排行`** → Show rankings for Week, Month, Season, or All-Time.  
 - **`NBA預測週最佳` / `NBA預測月最佳` / `NBA預測季最佳`** → Announce the "Best Predictor" for Week, Month, or Season.  
 
-📂 More screenshots: [assets/user_ranking](./assets/user_ranking)  
+📂 Screenshots: [assets/user_ranking](./assets/user_ranking)  
 
 ---
 
 ### 🛠️ Others
-![Other Features Showcase](./assets/others/overview.png)
 
 - **`NBA猜一猜`** → Play a game where you guess a player from career stats.  
 - **`news`** → Show top 5 NBA news articles from Hupu.  
 - **`yt {KEYWORD}`** → Get a YouTube link for the most relevant video.  
 - **`gg {KEYWORD}`** → Get a Google Image search result for the keyword.  
 
-📂 More screenshots: [assets/others](./assets/others)  
+📂 Screenshots: [assets/others](./assets/others)  
 
 
 ## ⚠️ Disclaimer
