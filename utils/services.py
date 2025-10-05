@@ -196,3 +196,7 @@ def text_message(event: MessageEvent):
 
     if message.lower() == "nba":
         pass
+
+    if message.lower() == "nba":
+        response = get_nba_scoreboard()
+        LINE_BOT_API.reply_message(event.reply_token, TextSendMessage(text=response))
